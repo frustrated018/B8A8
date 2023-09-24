@@ -7,42 +7,42 @@ const Navbar = () => {
       <nav className="flex justify-between items-center py-4">
         <Logo></Logo>
         <ul className=" flex gap-12 ">
-          <li>
+          <li className="text-neutral-950 text-lg font-normal">
             <NavLink
               to="/"
               className={({ isActive, isPending }) =>
                 isPending
                   ? "pending"
                   : isActive
-                  ? " text-red-500 underline"
+                  ? " text-red-500 underline font-bold"
                   : ""
               }
             >
               Home
             </NavLink>
           </li>
-          <li>
+          <li className="text-neutral-950 text-lg font-normal">
             <NavLink
               to="/donation"
               className={({ isActive, isPending }) =>
                 isPending
                   ? "pending"
                   : isActive
-                  ? " text-red-500 underline"
+                  ? " text-red-500 underline font-bold"
                   : ""
               }
             >
               Donation
             </NavLink>
           </li>
-          <li>
+          <li className="text-neutral-950 text-lg font-normal">
             <NavLink
               to="/statistics"
               className={({ isActive, isPending }) =>
                 isPending
                   ? "pending"
                   : isActive
-                  ? " text-red-500 underline"
+                  ? " text-red-500 underline font-bold"
                   : ""
               }
             >
