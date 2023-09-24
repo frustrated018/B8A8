@@ -4,9 +4,6 @@ import Campaign from "../Campaign.jsx/Campaign";
 const Campaigns = ({ campaigns }) => {
   return (
     <>
-      <h3 className="text-center text-red-800 text-2xl font-semibold">
-        All the cards will be stacked here
-      </h3>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
         {campaigns?.map((campaign) => {
           return <Campaign key={campaign.id} campaign={campaign}></Campaign>;
