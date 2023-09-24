@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "primary_color": "text-orange-700",
+      "secondary_color": "bg-orange-500",
+      "background_color": "bg-orange-300",
+      "category": "Food",
+      "campaign_name": "Food for All",
+      "campaign_description": "Join our 'Food for All' campaign and help us provide nutritious meals to hungry families in our community. Your donation will make a real difference in the lives of those in need.",
+      "img": "https://example.com/food-for-all.jpg"
+    },
+    {
+      "id": 2,
+      "primary_color": "text-blue-700",
+      "secondary_color": "bg-blue-500",
+      "background_color": "bg-blue-300",
+      "category": "Health",
+      "campaign_name": "Healthcare Access",
+      "campaign_description": "Support our 'Healthcare Access' campaign to ensure that quality healthcare is within reach for everyone, regardless of their financial situation. Your contribution can save lives.",
+      "img": "https://example.com/healthcare-access.jpg"
+    },
+    {
+      "id": 3,
+      "primary_color": "text-lime-700",
+      "secondary_color": "bg-lime-500",
+      "background_color": "bg-lime-300",
+      "category": "Clothing",
+      "campaign_name": "Warmth in Winter",
+      "campaign_description": "Help us keep families cozy during the winter season by donating warm clothing through our 'Warmth in Winter' campaign. Your generosity will bring comfort to those in need.",
+      "img": "https://example.com/warmth-in-winter.jpg"
+    },
+    {
+      "id": 4,
+      "primary_color": "text-red-700",
+      "secondary_color": "bg-red-500",
+      "background_color": "bg-red-300",
+      "category": "Education",
+      "campaign_name": "Education for All",
+      "campaign_description": "Support 'Education for All' and provide underprivileged children with access to quality education. Your donation empowers young minds and creates a brighter future.",
+      "img": "https://example.com/education-for-all.jpg"
+    },
+    {
+      "id": 5,
+      "primary_color": "text-orange-700",
+      "secondary_color": "bg-orange-500",
+      "background_color": "bg-orange-300",
+      "category": "Food",
+      "campaign_name": "Feed the Hungry",
+      "campaign_description": "Be a part of our 'Feed the Hungry' campaign and ensure that no one goes to bed hungry. Your contribution will fill empty stomachs and bring smiles to those in need.",
+      "img": "https://example.com/feed-the-hungry.jpg"
+    },
+    {
+      "id": 6,
+      "primary_color": "text-red-700",
+      "secondary_color": "bg-red-500",
+      "background_color": "bg-red-300",
+      "category": "Education",
+      "campaign_name": "Scholarship Fund",
+      "campaign_description": "Invest in the future by supporting our 'Scholarship Fund.' Your donation paves the way for deserving students to pursue their dreams through education.",
+      "img": "https://example.com/scholarship-fund.jpg"
+    },
+    {
+      "id": 7,
+      "primary_color": "text-blue-700",
+      "secondary_color": "bg-blue-500",
+      "background_color": "bg-blue-300",
+      "category": "Health",
+      "campaign_name": "Mental Health Support",
+      "campaign_description": "Join us in promoting mental well-being through our 'Mental Health Support' campaign. Your contribution helps create a happier and healthier community.",
+      "img": "https://example.com/mental-health-support.jpg"
+    },
+    {
+      "id": 8,
+      "primary_color": "text-lime-700",
+      "secondary_color": "bg-lime-500",
+      "background_color": "bg-lime-300",
+      "category": "Clothing",
+      "campaign_name": "Dress for Success",
+      "campaign_description": "Empower individuals to secure employment by donating professional attire to our 'Dress for Success' campaign. Your support transforms lives.",
+      "img": "https://example.com/dress-for-success.jpg"
+    },
+    {
+      "id": 9,
+      "primary_color": "text-red-700",
+      "secondary_color": "bg-red-500",
+      "background_color": "bg-red-300",
+      "category": "Education",
+      "campaign_name": "STEM Education Initiative",
+      "campaign_description": "Fuel the future with our 'STEM Education Initiative.' Your donation supports programs that prepare the next generation for a technology-driven world.",
+      "img": "https://example.com/stem-education-initiative.jpg"
+    },
+    {
+      "id": 10,
+      "primary_color": "text-blue-700",
+      "secondary_color": "bg-blue-500",
+      "background_color": "bg-blue-300",
+      "category": "Health",
+      "campaign_name": "Medical Relief Fund",
+      "campaign_description": "Make a significant impact by contributing to our 'Medical Relief Fund.' Your donation provides critical medical treatment to those in need.",
+      "img": "https://example.com/medical-relief-fund.jpg"
+    },
+    {
+      "id": 11,
+      "primary_color": "text-orange-700",
+      "secondary_color": "bg-orange-500",
+      "background_color": "bg-orange-300",
+      "category": "Food",
+      "campaign_name": "Nutrition for Kids",
+      "campaign_description": "Support our 'Nutrition for Kids' program and ensure that underprivileged children have access to healthy meals. Your generosity nurtures young minds.",
+      "img": "https://example.com/nutrition-for-kids.jpg"
+    },
+    {
+      "id": 12,
+      "primary_color": "text-lime-700",
+      "secondary_color": "bg-lime-500",
+      "background_color": "bg-lime-300",
+      "category": "Clothing",
+      "campaign_name": "Back-to-School Clothing Drive",
+      "campaign_description": "Equip students for a successful school year through our 'Back-to-School Clothing Drive.' Your donation provides clothing for education.",
+      "img": "https://example.com/back-to-school-clothing-drive.jpg"
+    }
+  ]
+  
