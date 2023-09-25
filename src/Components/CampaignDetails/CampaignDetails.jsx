@@ -19,7 +19,9 @@ const CampaignDetails = () => {
 
   return (
   <>
+    <div className="my-20">
     <DetailsBanner campaign={campaign}></DetailsBanner>
+    </div>
   </>
   );
 };
