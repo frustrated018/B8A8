@@ -21,15 +21,14 @@ const CampaignDetails = () => {
   return (
     <div>
       <div style={{ position: "relative" }}>
-        <img src={img} className="w-full static" />
+        <img src={img} className="w-full static rounded-lg" />
         <div
           style={{ backgroundColor: "rgba(11, 11, 11, 0.50)" }}
-          className="h-[130px] rounded-bl-lg rounded-br-lg absolute bottom-0 left-0 w-full"
+          className="h-[130px] absolute bottom-0 w-full rounded-bl-lg rounded-br-lg"
         >
           <button
             style={{ backgroundColor: text_color }}
-            className="mt-4 px-6 py-2 rounded"
-          >
+            className=" h-14 w-[179px] px-[26px] py-4 rounded ml-10 mt-10 text-white text-xl font-semibold ">
             Donate
           </button>
         </div>
@@ -38,7 +37,7 @@ const CampaignDetails = () => {
       <h2 className="text-neutral-950 text-[40px] font-bold">
         {campaign_name}
       </h2>
-      <p>{campaign_description}</p>
+      <div style={{color:"rgba(11, 11, 11, 0.70)"}} className="text-justify text-base font-normal leading-[30px]">{campaign_description}</div>
     </div>
   );
 };
