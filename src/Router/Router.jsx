@@ -4,6 +4,7 @@ import Home from "../Pages/Home/Home";
 import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
 import ErrorPage from "../Pages/Error/ErrorPage";
+import CampaignDetails from "../Components/CampaignDetails/CampaignDetails";
 
 const Router = createBrowserRouter([
     {
@@ -23,6 +24,10 @@ const Router = createBrowserRouter([
             {
                 path: "/statistics",
                 element:<Statistics></Statistics>
+            },
+            {
+                path: "/campaign/:id",
+                element:<CampaignDetails></CampaignDetails>
             }
         ]
     }
