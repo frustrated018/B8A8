@@ -1,6 +1,8 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 const DonationCard = ({ dono }) => {
   const {
+    id,
     background_color,
     badge_bg_color,
     category,
@@ -35,12 +37,15 @@ const DonationCard = ({ dono }) => {
             className=" text-base font-semibold mb-2 ">
             ${donation_amount}
           </p>
+          <Link to={`/campaign/${id}`}>
           <button
             style={{ backgroundColor: text_color }}
             className=" h-10 w-[141px] px-4 py-[9px] rounded text-white  font-semibold "
           >
             View details
           </button>
+          </Link>
+          
         </div>
       </div>
     </div>
