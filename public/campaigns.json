@@ -1,122 +1,134 @@
 [
-    {
-      "id": 1,
-      "category": "Food",
-      "campaign_name": "Food for All",
-      "campaign_description": "Join our 'Food for All' campaign and help us provide nutritious meals to hungry families in our community. Your donation will make a real difference in the lives of those in need.",
-      "img": "https://i.ibb.co/XVMktBJ/Food.png",
-      "text_color": "#F87147",
-      "background_color": "rgba(248, 113, 71, 0.15)",
-      "badge_bg_color": "rgba(248, 113, 71, 0.20)"
-    },
-    {
-      "id": 2,
-      "category": "Health",
-      "campaign_name": "Healthcare Access",
-      "campaign_description": "Support our 'Healthcare Access' campaign to ensure that quality healthcare is within reach for everyone, regardless of their financial situation. Your contribution can save lives.",
-      "img": "https://i.ibb.co/TqTkGVM/Health.png",
-      "text_color": "#0052FF",
-      "background_color": "rgba(0, 82, 255, 0.15)",
-      "badge_bg_color": "rgba(0, 82, 255, 0.20)"
-    },
-    {
-      "id": 3,
-      "category": "Clothing",
-      "campaign_name": "Warmth in Winter",
-      "campaign_description": "Help us keep families cozy during the winter season by donating warm clothing through our 'Warmth in Winter' campaign. Your generosity will bring comfort to those in need.",
-      "img": "https://i.ibb.co/HTGRcj6/Clothing.png",
-      "text_color": "#79C23F",
-      "background_color": "rgba(121, 194, 63, 0.15)",
-      "badge_bg_color": "rgba(121, 194, 63, 0.20)"
-    },
-    {
-      "id": 4,
-      "category": "Education",
-      "campaign_name": "Education for All",
-      "campaign_description": "Support 'Education for All' and provide underprivileged children with access to quality education. Your donation empowers young minds and creates a brighter future.",
-      "img": "https://i.ibb.co/Js0KLHJ/Education.png",
-      "text_color": "#FF444A",
-      "background_color": "rgba(255, 68, 74, 0.15)",
-      "badge_bg_color": "rgba(255, 68, 74, 0.20)"
-    },
-    {
-      "id": 5,
-      "category": "Food",
-      "campaign_name": "Feed the Hungry",
-      "campaign_description": "Be a part of our 'Feed the Hungry' campaign and ensure that no one goes to bed hungry. Your contribution will fill empty stomachs and bring smiles to those in need.",
-      "img": "https://i.ibb.co/XVMktBJ/Food.png",
-      "text_color": "#F87147",
-      "background_color": "rgba(248, 113, 71, 0.15)",
-      "badge_bg_color": "rgba(248, 113, 71, 0.20)"
-    },
-    {
-      "id": 6,
-      "category": "Education",
-      "campaign_name": "Scholarship Fund",
-      "campaign_description": "Invest in the future by supporting our 'Scholarship Fund.' Your donation paves the way for deserving students to pursue their dreams through education.",
-      "img": "https://i.ibb.co/Js0KLHJ/Education.png",
-      "text_color": "#FF444A",
-      "background_color": "rgba(255, 68, 74, 0.15)",
-      "badge_bg_color": "rgba(255, 68, 74, 0.20)"
-    },
-    {
-      "id": 7,
-      "category": "Health",
-      "campaign_name": "Mental Health Support",
-      "campaign_description": "Join us in promoting mental well-being through our 'Mental Health Support' campaign. Your contribution helps create a happier and healthier community.",
-      "img": "https://i.ibb.co/TqTkGVM/Health.png",
-      "text_color": "#0052FF",
-      "background_color": "rgba(0, 82, 255, 0.15)",
-      "badge_bg_color": "rgba(0, 82, 255, 0.20)"
-    },
-    {
-      "id": 8,
-      "category": "Clothing",
-      "campaign_name": "Dress for Success",
-      "campaign_description": "Empower individuals to secure employment by donating professional attire to our 'Dress for Success' campaign. Your support transforms lives.",
-      "img": "https://i.ibb.co/HTGRcj6/Clothing.png",
-      "text_color": "#79C23F",
-      "background_color": "rgba(121, 194, 63, 0.15)",
-      "badge_bg_color": "rgba(121, 194, 63, 0.20)"
-    },
-    {
-      "id": 9,
-      "category": "Education",
-      "campaign_name": "STEM Education Initiative",
-      "campaign_description": "Fuel the future with our 'STEM Education Initiative.' Your donation supports programs that prepare the next generation for a technology-driven world.",
-      "img": "https://i.ibb.co/Js0KLHJ/Education.png",
-      "text_color": "#FF444A",
-      "background_color": "rgba(255, 68, 74, 0.15)",
-      "badge_bg_color": "rgba(255, 68, 74, 0.20)"
-    },
-    {
-      "id": 10,
-      "category": "Health",
-      "campaign_name": "Medical Relief Fund",
-      "campaign_description": "Make a significant impact by contributing to our 'Medical Relief Fund.' Your donation provides critical medical treatment to those in need.",
-      "img": "https://i.ibb.co/TqTkGVM/Health.png",
-      "text_color": "#0052FF",
-      "background_color": "rgba(0, 82, 255, 0.15)",
-      "badge_bg_color": "rgba(0, 82, 255, 0.20)"
-    },
-    {
-      "id": 11,
-      "category": "Food",
-      "campaign_name": "Nutrition for Kids",
-      "campaign_description": "Support our 'Nutrition for Kids' program and ensure that underprivileged children have access to healthy meals. Your generosity nurtures young minds.",
-      "img": "https://i.ibb.co/XVMktBJ/Food.png",
-      "text_color": "#F87147",
-      "background_color": "rgba(248, 113, 71, 0.15)",
-      "badge_bg_color": "rgba(248, 113, 71, 0.20)"
-    },
-    {
-      "id": 12,
-      "category": "Clothing",
-      "campaign_name": "Clothing Drive",
-      "campaign_description": "Equip students for a successful school year through our 'Back-to-School Clothing Drive.' Your donation provides clothing for education.",
-      "img": "https://i.ibb.co/HTGRcj6/Clothing.png",
-      "text_color": "#79C23F",
-      "background_color": "rgba(121, 194, 63, 0.15)",
-      "badge_bg_color": "rgba(121, 194, 63, 0.20)"
-    }
+  {
+    "id": 1,
+    "category": "Food",
+    "campaign_name": "Food for All",
+    "campaign_description": "Join our 'Food for All' campaign and help us provide nutritious meals to hungry families in our community. Your donation will make a real difference in the lives of those in need.",
+    "img": "https://i.ibb.co/XVMktBJ/Food.png",
+    "rect_img": "https://i.ibb.co/X2mdYss/Rectangle-4287-2.png",
+    "text_color": "#F87147",
+    "background_color": "rgba(248, 113, 71, 0.15)",
+    "badge_bg_color": "rgba(248, 113, 71, 0.20)"
+  },
+  {
+    "id": 2,
+    "category": "Health",
+    "campaign_name": "Healthcare Access",
+    "campaign_description": "Support our 'Healthcare Access' campaign to ensure that quality healthcare is within reach for everyone, regardless of their financial situation. Your contribution can save lives.",
+    "img": "https://i.ibb.co/TqTkGVM/Health.png",
+    "rect_img": "https://i.ibb.co/GCwZgnc/Rectangle-4284.png",
+    "text_color": "#0052FF",
+    "background_color": "rgba(0, 82, 255, 0.15)",
+    "badge_bg_color": "rgba(0, 82, 255, 0.20)"
+  },
+  {
+    "id": 3,
+    "category": "Clothing",
+    "campaign_name": "Warmth in Winter",
+    "campaign_description": "Help us keep families cozy during the winter season by donating warm clothing through our 'Warmth in Winter' campaign. Your generosity will bring comfort to those in need.",
+    "img": "https://i.ibb.co/HTGRcj6/Clothing.png",
+    "rect_img": "https://i.ibb.co/Mf5HKPZ/Rectangle-4287.png",
+    "text_color": "#79C23F",
+    "background_color": "rgba(121, 194, 63, 0.15)",
+    "badge_bg_color": "rgba(121, 194, 63, 0.20)"
+  },
+  {
+    "id": 4,
+    "category": "Education",
+    "campaign_name": "Education for All",
+    "campaign_description": "Support 'Education for All' and provide underprivileged children with access to quality education. Your donation empowers young minds and creates a brighter future.",
+    "img": "https://i.ibb.co/Js0KLHJ/Education.png",
+    "rect_img": "https://i.ibb.co/KNG2gG8/Rectangle-4287-1.png",
+    "text_color": "#FF444A",
+    "background_color": "rgba(255, 68, 74, 0.15)",
+    "badge_bg_color": "rgba(255, 68, 74, 0.20)"
+  },
+  {
+    "id": 5,
+    "category": "Food",
+    "campaign_name": "Feed the Hungry",
+    "campaign_description": "Be a part of our 'Feed the Hungry' campaign and ensure that no one goes to bed hungry. Your contribution will fill empty stomachs and bring smiles to those in need.",
+    "img": "https://i.ibb.co/XVMktBJ/Food.png",
+    "rect_img": "https://i.ibb.co/X2mdYss/Rectangle-4287-2.png",
+    "text_color": "#F87147",
+    "background_color": "rgba(248, 113, 71, 0.15)",
+    "badge_bg_color": "rgba(248, 113, 71, 0.20)"
+  },
+  {
+    "id": 6,
+    "category": "Education",
+    "campaign_name": "Scholarship Fund",
+    "campaign_description": "Invest in the future by supporting our 'Scholarship Fund.' Your donation paves the way for deserving students to pursue their dreams through education.",
+    "img": "https://i.ibb.co/Js0KLHJ/Education.png",
+    "rect_img": "https://i.ibb.co/KNG2gG8/Rectangle-4287-1.png",
+    "text_color": "#FF444A",
+    "background_color": "rgba(255, 68, 74, 0.15)",
+    "badge_bg_color": "rgba(255, 68, 74, 0.20)"
+  },
+  {
+    "id": 7,
+    "category": "Health",
+    "campaign_name": "Mental Health Support",
+    "campaign_description": "Join us in promoting mental well-being through our 'Mental Health Support' campaign. Your contribution helps create a happier and healthier community.",
+    "img": "https://i.ibb.co/TqTkGVM/Health.png",
+    "rect_img": "https://i.ibb.co/GCwZgnc/Rectangle-4284.png",
+    "text_color": "#0052FF",
+    "background_color": "rgba(0, 82, 255, 0.15)",
+    "badge_bg_color": "rgba(0, 82, 255, 0.20)"
+  },
+  {
+    "id": 8,
+    "category": "Clothing",
+    "campaign_name": "Dress for Success",
+    "campaign_description": "Empower individuals to secure employment by donating professional attire to our 'Dress for Success' campaign. Your support transforms lives.",
+    "img": "https://i.ibb.co/HTGRcj6/Clothing.png",
+    "rect_img": "https://i.ibb.co/Mf5HKPZ/Rectangle-4287.png",
+    "text_color": "#79C23F",
+    "background_color": "rgba(121, 194, 63, 0.15)",
+    "badge_bg_color": "rgba(121, 194, 63, 0.20)"
+  },
+  {
+    "id": 9,
+    "category": "Education",
+    "campaign_name": "STEM Education Initiative",
+    "campaign_description": "Fuel the future with our 'STEM Education Initiative.' Your donation supports programs that prepare the next generation for a technology-driven world.",
+    "img": "https://i.ibb.co/Js0KLHJ/Education.png",
+    "rect_img": "https://i.ibb.co/KNG2gG8/Rectangle-4287-1.png",
+    "text_color": "#FF444A",
+    "background_color": "rgba(255, 68, 74, 0.15)",
+    "badge_bg_color": "rgba(255, 68, 74, 0.20)"
+  },
+  {
+    "id": 10,
+    "category": "Health",
+    "campaign_name": "Medical Relief Fund",
+    "campaign_description": "Make a significant impact by contributing to our 'Medical Relief Fund.' Your donation provides critical medical treatment to those in need.",
+    "img": "https://i.ibb.co/TqTkGVM/Health.png",
+    "rect_img": "https://i.ibb.co/GCwZgnc/Rectangle-4284.png",
+    "text_color": "#0052FF",
+    "background_color": "rgba(0, 82, 255, 0.15)",
+    "badge_bg_color": "rgba(0, 82, 255, 0.20)"
+  },
+  {
+    "id": 11,
+    "category": "Food",
+    "campaign_name": "Nutrition for Kids",
+    "campaign_description": "Support our 'Nutrition for Kids' program and ensure that underprivileged children have access to healthy meals. Your generosity nurtures young minds.",
+    "img": "https://i.ibb.co/XVMktBJ/Food.png",
+    "rect_img": "https://i.ibb.co/X2mdYss/Rectangle-4287-2.png",
+    "text_color": "#F87147",
+    "background_color": "rgba(248, 113, 71, 0.15)",
+    "badge_bg_color": "rgba(248, 113, 71, 0.20)"
+  },
+  {
+    "id": 12,
+    "category": "Clothing",
+    "campaign_name": "Clothing Drive",
+    "campaign_description": "Equip students for a successful school year through our 'Back-to-School Clothing Drive.' Your donation provides clothing for education.",
+    "img": "https://i.ibb.co/HTGRcj6/Clothing.png",
+    "rect_img": "https://i.ibb.co/Mf5HKPZ/Rectangle-4287.png",
+    "text_color": "#79C23F",
+    "background_color": "rgba(121, 194, 63, 0.15)",
+    "badge_bg_color": "rgba(121, 194, 63, 0.20)"
+  }
 ]

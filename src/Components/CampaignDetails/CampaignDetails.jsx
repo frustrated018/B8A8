@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import DetailsBanner from "./DetailsBanner";
 
 const CampaignDetails = () => {
   const [campaign, setCampaign] = useState({});
@@ -15,30 +16,11 @@ const CampaignDetails = () => {
     setCampaign(clickedCampaign);
   }, [id, campaigns]);
 
-  const { text_color, campaign_description, campaign_name, img } =
-    campaign || {};
 
   return (
-    <div>
-      <div style={{ position: "relative" }}>
-        <img src={img} className="w-full static rounded-lg" />
-        <div
-          style={{ backgroundColor: "rgba(11, 11, 11, 0.50)" }}
-          className="h-[130px] absolute bottom-0 w-full rounded-bl-lg rounded-br-lg"
-        >
-          <button
-            style={{ backgroundColor: text_color }}
-            className=" h-14 w-[179px] px-[26px] py-4 rounded ml-10 mt-10 text-white text-xl font-semibold ">
-            Donate
-          </button>
-        </div>
-      </div>
-
-      <h2 className="text-neutral-950 text-[40px] font-bold">
-        {campaign_name}
-      </h2>
-      <div style={{color:"rgba(11, 11, 11, 0.70)"}} className="text-justify text-base font-normal leading-[30px]">{campaign_description}</div>
-    </div>
+  <>
+    <DetailsBanner campaign={campaign}></DetailsBanner>
+  </>
   );
 };
 
