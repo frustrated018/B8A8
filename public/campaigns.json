@@ -8,7 +8,8 @@
     "rect_img": "https://i.ibb.co/X2mdYss/Rectangle-4287-2.png",
     "text_color": "#F87147",
     "background_color": "rgba(248, 113, 71, 0.15)",
-    "badge_bg_color": "rgba(248, 113, 71, 0.20)"
+    "badge_bg_color": "rgba(248, 113, 71, 0.20)",
+    "donation_amount": 180
   },
   {
     "id": 2,
@@ -19,7 +20,8 @@
     "rect_img": "https://i.ibb.co/GCwZgnc/Rectangle-4284.png",
     "text_color": "#0052FF",
     "background_color": "rgba(0, 82, 255, 0.15)",
-    "badge_bg_color": "rgba(0, 82, 255, 0.20)"
+    "badge_bg_color": "rgba(0, 82, 255, 0.20)",
+    "donation_amount": 220
   },
   {
     "id": 3,
@@ -30,7 +32,8 @@
     "rect_img": "https://i.ibb.co/Mf5HKPZ/Rectangle-4287.png",
     "text_color": "#79C23F",
     "background_color": "rgba(121, 194, 63, 0.15)",
-    "badge_bg_color": "rgba(121, 194, 63, 0.20)"
+    "badge_bg_color": "rgba(121, 194, 63, 0.20)",
+    "donation_amount": 150
   },
   {
     "id": 4,
@@ -41,7 +44,8 @@
     "rect_img": "https://i.ibb.co/KNG2gG8/Rectangle-4287-1.png",
     "text_color": "#FF444A",
     "background_color": "rgba(255, 68, 74, 0.15)",
-    "badge_bg_color": "rgba(255, 68, 74, 0.20)"
+    "badge_bg_color": "rgba(255, 68, 74, 0.20)",
+    "donation_amount": 290
   },
   {
     "id": 5,
@@ -52,7 +56,8 @@
     "rect_img": "https://i.ibb.co/X2mdYss/Rectangle-4287-2.png",
     "text_color": "#F87147",
     "background_color": "rgba(248, 113, 71, 0.15)",
-    "badge_bg_color": "rgba(248, 113, 71, 0.20)"
+    "badge_bg_color": "rgba(248, 113, 71, 0.20)",
+    "donation_amount": 130
   },
   {
     "id": 6,
@@ -63,7 +68,8 @@
     "rect_img": "https://i.ibb.co/KNG2gG8/Rectangle-4287-1.png",
     "text_color": "#FF444A",
     "background_color": "rgba(255, 68, 74, 0.15)",
-    "badge_bg_color": "rgba(255, 68, 74, 0.20)"
+    "badge_bg_color": "rgba(255, 68, 74, 0.20)",
+    "donation_amount": 200
   },
   {
     "id": 7,
@@ -74,7 +80,8 @@
     "rect_img": "https://i.ibb.co/GCwZgnc/Rectangle-4284.png",
     "text_color": "#0052FF",
     "background_color": "rgba(0, 82, 255, 0.15)",
-    "badge_bg_color": "rgba(0, 82, 255, 0.20)"
+    "badge_bg_color": "rgba(0, 82, 255, 0.20)",
+    "donation_amount": 170
   },
   {
     "id": 8,
@@ -85,7 +92,8 @@
     "rect_img": "https://i.ibb.co/Mf5HKPZ/Rectangle-4287.png",
     "text_color": "#79C23F",
     "background_color": "rgba(121, 194, 63, 0.15)",
-    "badge_bg_color": "rgba(121, 194, 63, 0.20)"
+    "badge_bg_color": "rgba(121, 194, 63, 0.20)",
+    "donation_amount": 160
   },
   {
     "id": 9,
@@ -96,7 +104,8 @@
     "rect_img": "https://i.ibb.co/KNG2gG8/Rectangle-4287-1.png",
     "text_color": "#FF444A",
     "background_color": "rgba(255, 68, 74, 0.15)",
-    "badge_bg_color": "rgba(255, 68, 74, 0.20)"
+    "badge_bg_color": "rgba(255, 68, 74, 0.20)",
+    "donation_amount": 140
   },
   {
     "id": 10,
@@ -107,7 +116,8 @@
     "rect_img": "https://i.ibb.co/GCwZgnc/Rectangle-4284.png",
     "text_color": "#0052FF",
     "background_color": "rgba(0, 82, 255, 0.15)",
-    "badge_bg_color": "rgba(0, 82, 255, 0.20)"
+    "badge_bg_color": "rgba(0, 82, 255, 0.20)",
+    "donation_amount": 250
   },
   {
     "id": 11,
@@ -118,7 +128,8 @@
     "rect_img": "https://i.ibb.co/X2mdYss/Rectangle-4287-2.png",
     "text_color": "#F87147",
     "background_color": "rgba(248, 113, 71, 0.15)",
-    "badge_bg_color": "rgba(248, 113, 71, 0.20)"
+    "badge_bg_color": "rgba(248, 113, 71, 0.20)",
+    "donation_amount": 120
   },
   {
     "id": 12,
@@ -129,6 +140,7 @@
     "rect_img": "https://i.ibb.co/Mf5HKPZ/Rectangle-4287.png",
     "text_color": "#79C23F",
     "background_color": "rgba(121, 194, 63, 0.15)",
-    "badge_bg_color": "rgba(121, 194, 63, 0.20)"
+    "badge_bg_color": "rgba(121, 194, 63, 0.20)",
+    "donation_amount": 170
   }
 ]

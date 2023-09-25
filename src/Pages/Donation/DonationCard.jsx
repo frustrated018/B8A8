@@ -1,10 +1,20 @@
 import PropTypes from "prop-types";
 const DonationCard = ({ dono }) => {
-  const { background_color, badge_bg_color, category, text_color, campaign_name, img } =
-    dono || {};
+  const {
+    background_color,
+    badge_bg_color,
+    category,
+    text_color,
+    campaign_name,
+    img,
+    donation_amount,
+  } = dono || {};
   return (
     <div>
-      <div style={{ backgroundColor: background_color }} className="relative flex w-full max-w-[48rem] flex-row rounded-xl  bg-clip-bordershadow-md">
+      <div
+        style={{ backgroundColor: background_color }}
+        className="relative flex w-full max-w-[48rem] flex-row rounded-xl  bg-clip-bordershadow-md"
+      >
         <div className="relative m-0 w-2/5 shrink-0 overflow-hidden rounded-xl rounded-r-none bg-clip-border">
           <img src={img} alt="image" className="h-full w-full object-cover" />
         </div>
@@ -20,6 +30,11 @@ const DonationCard = ({ dono }) => {
           <h6 className=" block text-2xl font-semibold  leading-relaxed tracking-normal text-neutral-900 antialiased mt-1">
             {campaign_name}
           </h6>
+          <p
+            style={{ color: text_color }}
+            className=" text-base font-semibold mb-2 ">
+            ${donation_amount}
+          </p>
           <button
             style={{ backgroundColor: text_color }}
             className=" h-10 w-[141px] px-4 py-[9px] rounded text-white  font-semibold "
