@@ -44,8 +44,8 @@ const ThePie = ({ donationsInLocalStorage, donationsNotInLocalStorage }) => {
         data={data}
         cx={200}
         cy={200}
-        innerRadius={0} // Set innerRadius to 0 for a filled circle
-        outerRadius={80}
+        innerRadius={0}
+        outerRadius={170}
         fill="#8884d8"
         dataKey="value"
         label={renderCustomizedLabel}
@@ -55,7 +55,7 @@ const ThePie = ({ donationsInLocalStorage, donationsNotInLocalStorage }) => {
         ))}
       </Pie>
       <Tooltip />
-      <Legend />
+      <Legend verticalAlign="bottom" iconSize={17} layout="vertical" iconType="circle" />
     </PieChart>
   );
 };
