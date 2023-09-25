@@ -1,17 +1,20 @@
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const Campaign = ({ campaign }) => {
   const {
+    id,
     text_color,
     background_color,
     badge_bg_color,
     category,
     campaign_name,
     img,
-  } = campaign;
+  } = campaign || {};
   return (
     <>
-      <div
+    <Link to={`/campaign/${id}`}>
+    <div
         style={{ backgroundColor: background_color }}
         className="flex flex-col gap-0 rounded-lg"
       >
@@ -35,6 +38,7 @@ const Campaign = ({ campaign }) => {
           </div>
         </div>
       </div>
+    </Link>
     </>
   );
 };
