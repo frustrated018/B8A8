@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import swal from "sweetalert";
 
 const DetailsBanner = ({ campaign }) => {
-  const { id, text_color, campaign_description, campaign_name, img } =
+  const { id, text_color, campaign_description, campaign_name, img, donation_amount } =
     campaign || {};
 
   const handleDonate = () => {
@@ -41,7 +41,7 @@ const DetailsBanner = ({ campaign }) => {
               style={{ backgroundColor: text_color }}
               className=" h-14 w-[179px] px-[26px] py-4 rounded ml-10 mt-10 text-white text-xl font-semibold "
             >
-              Donate
+              Donate ${donation_amount}
             </button>
           </div>
         </div>
