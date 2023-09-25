@@ -23,7 +23,8 @@ const Router = createBrowserRouter([
             },
             {
                 path: "/statistics",
-                element:<Statistics></Statistics>
+                element:<Statistics></Statistics>,
+                loader: () => fetch('/campaigns.json')
             },
             {
                 path: "/campaign/:id",

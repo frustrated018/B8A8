@@ -18,7 +18,7 @@ const Donation = () => {
   }, []);
 
   return (
-    <div>
+    <div className=" my-[70px] ">
       {noDono ? (
         <h2 className=" h-[80vh] flex justify-center items-center text-3xl text-red-600">
           {noDono}
@@ -41,7 +41,7 @@ const Donation = () => {
         <div className="flex justify-center items-center">
           <button
             onClick={() => setShowALl(!showAll)}
-            className="w-[110px] h-12 bg-green-600 rounded-lg my-10 text-white text-base font-semibold"
+            className="w-[110px] h-12 bg-green-600 rounded-lg mt-10 text-white text-base font-semibold"
           >
             {showAll ? "Show less" : "Show All"}
           </button>
