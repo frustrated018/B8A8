@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import Campaign from "../Campaign.jsx/Campaign";
+import Campaign from "../Campaign/Campaign";
 
 const Campaigns = ({ campaigns }) => {
   return (
