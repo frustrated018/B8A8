@@ -1,4 +1,11 @@
-import { PieChart, Pie, Cell, Tooltip, Legend } from "recharts";
+import {
+  PieChart,
+  Pie,
+  Cell,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 import PropTypes from "prop-types";
 
 const ThePie = ({ donationsInLocalStorage, donationsNotInLocalStorage }) => {
@@ -30,7 +37,7 @@ const ThePie = ({ donationsInLocalStorage, donationsNotInLocalStorage }) => {
         x={x}
         y={y}
         fill="white"
-        textAnchor="middle"
+        textAnchor={x > cx ? "start" : "end"}
         dominantBaseline="central"
       >
         {`${(percent * 100).toFixed(0)}%`}
@@ -39,24 +46,26 @@ const ThePie = ({ donationsInLocalStorage, donationsNotInLocalStorage }) => {
   };
 
   return (
-    <PieChart width={500} height={500}>
+    <ResponsiveContainer width="100%" height="100%">
+    <PieChart>
       <Pie
         data={data}
-        cx={200}
-        cy={200}
-        innerRadius={0}
-        outerRadius={170}
+        cx="50%"
+        cy="50%"
+        labelLine={false}
+        label={renderCustomizedLabel}
+        outerRadius={150}
         fill="#8884d8"
         dataKey="value"
-        label={renderCustomizedLabel}
       >
         {data.map((entry, index) => (
-          <Cell key={`cell-${index}`} fill={COLORS[index]} />
+          <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
         ))}
       </Pie>
-      <Tooltip />
-      <Legend verticalAlign="bottom" iconSize={17} layout="vertical" iconType="circle" />
+      <Tooltip></Tooltip>
+      <Legend></Legend>
     </PieChart>
+  </ResponsiveContainer>
   );
 };
 

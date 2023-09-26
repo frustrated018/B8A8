@@ -26,7 +26,7 @@ const MainLayout = () => {
         <div
           style={{
             backgroundImage:
-              'url("https://i.ibb.co/RgSB9M9/joel-muniz-A4-Ax1-Apccf-A-unsplash.jpg")',
+              'url("https://i.ibb.co/x1KRTKb/Rectangle-4281.png")',
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "center",

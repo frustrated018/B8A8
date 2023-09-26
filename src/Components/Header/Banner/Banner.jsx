@@ -7,7 +7,7 @@ const Banner = () => {
 
   
   const handleSearchBtn = () =>{
-   console.log( typeof searchTerm);
+   console.log(searchTerm);
 
  }
 
