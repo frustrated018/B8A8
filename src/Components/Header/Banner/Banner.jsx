@@ -1,13 +1,13 @@
 import { useState } from "react";
-
-const Banner = () => {
+import PropTypes from "prop-types"
+const Banner = ({filterCampaigns}) => {
 
 
   const [searchTerm,  setSearchTerm] = useState("");
 
   
   const handleSearchBtn = () =>{
-   console.log(searchTerm);
+   filterCampaigns(searchTerm);
 
  }
 
@@ -36,5 +36,7 @@ const Banner = () => {
     </>
   );
 };
-
+Banner.propTypes = {
+  filterCampaigns: PropTypes.func,
+}
 export default Banner;

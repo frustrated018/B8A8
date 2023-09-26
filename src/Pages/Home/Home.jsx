@@ -1,14 +1,20 @@
-import { useLoaderData } from "react-router-dom";
 import Campaigns from "../../Components/Campaigns/Campaigns";
+import PropTypes from "prop-types"
 
-const Home = () => {
-  const campaigns = useLoaderData();
+const Home = ({campaigns}) => {
+  
 
   return (
     <div>
-      <Campaigns key={campaigns.id} campaigns={campaigns}></Campaigns>
+      <Campaigns  campaigns={campaigns}></Campaigns>
     </div>
   );
 };
+
+
+Home.propTypes = {
+  campaigns: PropTypes.object
+}
+
 
 export default Home;
