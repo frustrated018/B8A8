@@ -1,17 +1,13 @@
 import { useState } from "react";
-import PropTypes from "prop-types"
-const Banner = ({filterCampaigns}) => {
+import PropTypes from "prop-types";
+const Banner = ({ filterCampaigns }) => {
+  const [searchTerm, setSearchTerm] = useState("");
 
-
-  const [searchTerm,  setSearchTerm] = useState("");
-
-  
-  const handleSearchBtn = () =>{
-   filterCampaigns(searchTerm);
-
- }
-
-
+  const handleSearchBtn = () => {
+    filterCampaigns(searchTerm);
+    setSearchTerm("");
+   
+  };
 
   return (
     <>
@@ -24,11 +20,16 @@ const Banner = ({filterCampaigns}) => {
             <input
               className="input input-bordered join-item w-96"
               placeholder="Search"
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={(e) => {
+                setSearchTerm(e.target.value);
+              }}
             />
           </div>
 
-          <button className="join-item bg-red-500 text-white px-9" onClick={handleSearchBtn}>
+          <button
+            className="join-item bg-red-500 text-white px-9"
+            onClick={handleSearchBtn}
+          >
             Search
           </button>
         </div>
@@ -38,5 +39,5 @@ const Banner = ({filterCampaigns}) => {
 };
 Banner.propTypes = {
   filterCampaigns: PropTypes.func,
-}
+};
 export default Banner;

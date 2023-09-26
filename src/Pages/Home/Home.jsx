@@ -13,7 +13,7 @@ const Home = ({campaigns}) => {
 
 
 Home.propTypes = {
-  campaigns: PropTypes.object
+  campaigns: PropTypes.array
 }
 
 
