@@ -10,6 +10,7 @@ const Router = createBrowserRouter([
     {
         path: "/",
         element:<MainLayout></MainLayout>,
+        loader: () => fetch('/campaigns.json'),
         errorElement:<ErrorPage></ErrorPage>,
         children: [
             {

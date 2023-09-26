@@ -7,8 +7,6 @@ const MainLayout = () => {
   const locate = useLocation();
 
   useEffect(() => {
-    console.log(locate.pathname);
-
     if (locate.pathname === "/") {
       document.title = `Donation Campaign/Home`;
     } else {
@@ -18,6 +16,9 @@ const MainLayout = () => {
       document.title = `${locate.state}`;
     }
   }, [locate.pathname, locate.state]);
+
+  // for the search functionality
+
 
   return (
     <>
@@ -34,7 +35,7 @@ const MainLayout = () => {
           <div className="hero-overlay bg-white bg-opacity-90">
             <div className="max-w-[1300px] mx-auto">
               <Navbar />
-              <Banner />
+              <Banner/>
             </div>
           </div>
         </div>

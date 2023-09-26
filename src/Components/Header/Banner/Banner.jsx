@@ -1,4 +1,18 @@
+import { useState } from "react";
+
 const Banner = () => {
+
+
+  const [searchTerm,  setSearchTerm] = useState("");
+
+  
+  const handleSearchBtn = () =>{
+   console.log( typeof searchTerm);
+
+ }
+
+
+
   return (
     <>
       <div className="flex flex-col justify-center items-center gap-10 my-10 p-40">
@@ -8,12 +22,13 @@ const Banner = () => {
         <div className="join">
           <div>
             <input
-              className="input input-bordered join-item"
+              className="input input-bordered join-item w-96"
               placeholder="Search"
+              onChange={(e) => setSearchTerm(e.target.value)}
             />
           </div>
 
-          <button className="btn join-item bg-red-500 text-white">
+          <button className="join-item bg-red-500 text-white px-9" onClick={handleSearchBtn}>
             Search
           </button>
         </div>
