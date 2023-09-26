@@ -13,7 +13,7 @@ const Campaign = ({ campaign }) => {
   } = campaign || {};
   return (
     <>
-    <Link to={`/campaign/${id}`}>
+    <Link to={`/campaign/${id}`} state={campaign_name}>
     <div
         style={{ backgroundColor: background_color }}
         className="flex flex-col gap-0 rounded-lg"

@@ -13,9 +13,11 @@ const MainLayout = () => {
     }else{
         document.title = `Donation Campaign${locate.pathname}`
     }
+    if (locate.state) {
+        document.title = `${locate.state}`
+    }
 
-
-  }, [locate.pathname]);
+  }, [locate.pathname, locate.state]);
 
   return (
     <div className="max-w-[1300px] mx-auto">
