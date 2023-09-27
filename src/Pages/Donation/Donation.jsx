@@ -23,7 +23,7 @@ const Donation = () => {
           {noDono}
         </h2>
       ) : (
-        <div className="grid grid-cols-2 gap-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 mx-5 md:mx-20 lg:mx-0">
           {showAll
             ? donations.map((dono, idx) => (
                 <DonationCard key={idx} dono={dono}></DonationCard>
