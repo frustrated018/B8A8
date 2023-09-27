@@ -34,12 +34,12 @@ const DetailsBanner = ({ campaign }) => {
           <img src={img} className="w-full static rounded-lg" />
           <div
             style={{ backgroundColor: "rgba(11, 11, 11, 0.50)" }}
-            className="h-[130px] absolute bottom-0 w-full rounded-bl-lg rounded-br-lg"
+            className=" h-[80px] md:h-[130px] absolute bottom-0 w-full rounded-bl-lg rounded-br-lg"
           >
             <button
               onClick={() => handleDonate()}
               style={{ backgroundColor: text_color }}
-              className=" h-14 w-[179px] px-[26px] py-4 rounded ml-10 mt-10 text-white text-xl font-semibold "
+              className=" h-10 md:h-14 w-[120px] md:w-[179px] px-3 md:px-[26px] py-2 md:py-4 rounded ml-4 md:ml-10 mt-5 md:mt-10 text-white text-sm md:text-xl font-semibold "
             >
               Donate ${donation_amount}
             </button>
