@@ -14,7 +14,7 @@ const handleInput = (e) =>{
 
   return (
     <>
-      <div className="flex flex-col justify-center items-center gap-10 my-10 p-10 md:p-20 lg:p-40">
+      <div className="flex flex-col justify-center items-center gap-10 p-10 md:p-20 lg:p-40">
         <div className="text-center text-neutral-900 text-5xl font-bold">
           I Grow By Helping People In Need
         </div>
