@@ -19,8 +19,8 @@ const Campaign = ({ campaign }) => {
         className="flex flex-col gap-0 rounded-lg"
       >
         {/* Image div */}
-        <div className="w-full">
-          <img src={img} />
+        <div className="">
+          <img src={img} className="w-full" />
         </div>
 
         {/* text div */}

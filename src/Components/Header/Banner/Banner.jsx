@@ -4,10 +4,13 @@ const Banner = ({ filterCampaigns }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearchBtn = () => {
-    filterCampaigns(searchTerm);
-    setSearchTerm("");
-   
+    filterCampaigns(searchTerm);   
   };
+
+const handleInput = (e) =>{
+  setSearchTerm(e.target.value)
+}
+
 
   return (
     <>
@@ -18,16 +21,14 @@ const Banner = ({ filterCampaigns }) => {
         <div className="join">
           <div>
             <input
-              className="input input-bordered join-item w-96"
+              className="input input-bordered join-item lg:w-96"
               placeholder="Search"
-              onChange={(e) => {
-                setSearchTerm(e.target.value);
-              }}
+              onChange={handleInput}
             />
           </div>
 
           <button
-            className="join-item bg-red-500 text-white px-9"
+            className="join-item bg-red-500 text-white px-4 lg:px-9"
             onClick={handleSearchBtn}
           >
             Search

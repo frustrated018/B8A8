@@ -5,7 +5,7 @@ const Home = ({campaigns}) => {
   
 
   return (
-    <div>
+    <div className=" mx-10">
       <Campaigns  campaigns={campaigns}></Campaigns>
     </div>
   );
