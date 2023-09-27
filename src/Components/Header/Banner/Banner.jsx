@@ -23,7 +23,7 @@ const handleInput = (e) =>{
           <div>
             <input
               className="input input-bordered join-item lg:w-96"
-              placeholder="Search"
+              placeholder="Search here..."
               onChange={handleInput}
               value={searchTerm}
             />
