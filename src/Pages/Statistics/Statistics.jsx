@@ -7,7 +7,7 @@ const Statistics = () => {
   const totalDonations = 12;
   const donationsNotInLocalStorage = totalDonations - donationsInLocalStorage;
   return (
-    <div className=" mx-auto h-[500px] w-[500px] ">
+    <div className=" mx-auto h-[350px] md:h-[500px]  md:w-[500px] mb-10">
       <ThePie
         donationsInLocalStorage={donationsInLocalStorage}
         donationsNotInLocalStorage={donationsNotInLocalStorage}
