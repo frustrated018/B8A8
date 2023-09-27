@@ -4,7 +4,8 @@ const Banner = ({ filterCampaigns }) => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleSearchBtn = () => {
-    filterCampaigns(searchTerm);   
+    filterCampaigns(searchTerm);
+    setSearchTerm("")   
   };
 
 const handleInput = (e) =>{
@@ -24,6 +25,7 @@ const handleInput = (e) =>{
               className="input input-bordered join-item lg:w-96"
               placeholder="Search"
               onChange={handleInput}
+              value={searchTerm}
             />
           </div>
 

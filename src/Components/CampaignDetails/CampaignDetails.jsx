@@ -19,7 +19,7 @@ const CampaignDetails = () => {
 
   return (
   <>
-    <div className="my-20">
+    <div className="my-20 mx-5 md:mx-10 lg:mx-0">
     <DetailsBanner campaign={campaign}></DetailsBanner>
     </div>
   </>
