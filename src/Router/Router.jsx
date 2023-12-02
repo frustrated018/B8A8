@@ -3,15 +3,15 @@ import MainLayout from "../Layout/MainLayout";
 import Home from "../Pages/Home/Home";
 import Donation from "../Pages/Donation/Donation";
 import Statistics from "../Pages/Statistics/Statistics";
-import ErrorPage from "../Pages/Error/ErrorPage";
 import CampaignDetails from "../Components/CampaignDetails/CampaignDetails";
+import ErrorPage from "../Pages/Error/ErrorPage";
 
 const Router = createBrowserRouter([
     {
         path: "/",
         element:<MainLayout></MainLayout>,
         loader: () => fetch('/campaigns.json'),
-        errorElement:<ErrorPage></ErrorPage>,
+        errorElement: <ErrorPage></ErrorPage> ,
         children: [
             {
                 path: "/",

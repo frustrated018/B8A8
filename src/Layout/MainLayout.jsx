@@ -8,6 +8,7 @@ const MainLayout = () => {
   const locate = useLocation();
   const campaigns = useLoaderData();
 
+  console.log(campaigns);
   useEffect(() => {
     if (locate.pathname === "/") {
       document.title = `Donation Campaign/Home`;
